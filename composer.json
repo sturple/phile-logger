@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "Adds logging support to Phile CMS",
   "homepage": "http://github.com/sturple/phile-logger",
-  "keywords": ["cms","phile","content","logger"],
+  "keywords": ["cms","phile","content","logger","logging"],
   "authors": [
       {
       "name": "Shawn Turple",
@@ -14,6 +14,6 @@
       }
   ],
   "require": {
-    "psr/log": "1.0.0"
+    "katzgrau/klogger": "1.2.0"
     }
 }
