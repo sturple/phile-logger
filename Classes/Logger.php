@@ -1,10 +1,8 @@
 <?php
 namespace Phile\Plugin\Sturple\PhileLogger;
-use DateTime;
-use RuntimeException;
-use Psr\Log\AbstractLogger;
-use Psr\Log\LogLevel;
+use Katzgrau\KLogger;
 
-class Logger extends AbstractLogger {
+
+class Logger extends KLogger {
 
 }
