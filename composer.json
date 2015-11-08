@@ -15,6 +15,6 @@
       }
   ],
   "require": {
-    "psr/log" : "dev-master"
+    "psr/log": "1.0.0"
     }
 }
