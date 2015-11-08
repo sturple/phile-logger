@@ -1,10 +1,10 @@
 {
-  "name": "sturple/phileLogger",
+  "name": "sturple/phile-logger",
   "type": "phile-plugin",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Adds logging support to Phile CMS",
-  "homepage": "http://github.com/sturple/phileLogger",
+  "homepage": "http://github.com/sturple/phile-logger",
   "keywords": ["cms","phile","content","Logger"],
   "authors": [
       {
