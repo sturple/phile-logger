@@ -1,0 +1,20 @@
+{
+  "name": "sturple/phileLogger",
+  "type": "phile-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Adds logging support to Phile CMS",
+  "homepage": "http://github.com/sturple/phileLogger",
+  "keywords": ["cms","phile","content","Logger"],
+  "authors": [
+      {
+      "name": "Shawn Turple",
+      "email": "shawn@turple.ca",
+      "homepage": "http://github.com/sturple/",
+      "role": "Developer"
+      }
+  ],
+  "require": {
+    "katzgrau/klogger": "dev-master"
+    }
+}
