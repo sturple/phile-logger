@@ -5,12 +5,11 @@
   "license": "MIT",
   "description": "Adds logging support to Phile CMS",
   "homepage": "http://github.com/sturple/phile-logger",
-  "keywords": ["cms","phile","content","Logger"],
+  "keywords": ["cms","phile","content","logger"],
   "authors": [
       {
       "name": "Shawn Turple",
       "email": "shawn@turple.ca",
-      "homepage": "http://github.com/sturple/",
       "role": "Developer"
       }
   ],
