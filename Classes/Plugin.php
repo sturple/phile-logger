@@ -2,7 +2,7 @@
 /**
 * Plugin Class PhileLess
 */
-namespace Phile\Plugin\Sturple\PhileLess;
+namespace Phile\Plugin\Sturple\PhileLogger;
 class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
 	
 	public function __construct() {
