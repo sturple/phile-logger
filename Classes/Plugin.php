@@ -13,7 +13,7 @@ namespace Phile\Plugin\Sturple\PhileLogger;
 use \Phile\Plugin\Sturple\PhileLogger;
 class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface
 {	
-	public function __construct($relDir, $logLevel="debug", $options = array())
+	public function __construct($relDir="lib/cache/logs", $logLevel="debug", $options = array())
 	{
 		/* Register Events */
 		\Phile\Event::registerEvent('plugins_loaded', $this);
