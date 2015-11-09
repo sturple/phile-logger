@@ -1,11 +1,5 @@
 
-[![Software License](https://img.shields.io/packagist/l/phile-cms/phile.svg)](https://github.com/sturple/phileLogger/blob/master/LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/phile-cms/phile.svg)](https://packagist.org/packages/sturple/phile-logger)
-
-
 # Logger For Phile CMS
-
-
 
 This is a simple plugin, which allows logging to be enabled during development and testing of other plugins.
 
