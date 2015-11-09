@@ -10,23 +10,20 @@
 * 
 **/
 namespace Phile\Plugin\Sturple\PhileLogger;
+use \Phile\Plugin\Sturple\PhileLogger;
 class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface
 {	
-	protected $logger = null;	
-	public function __construct()
+	public function __construct($relDir, $logLevel="debug", $options = array())
 	{
 		/* Register Events */
-		\Phile\Event::registerEvent('plugins_loaded', $this);		
-	}
+		\Phile\Event::registerEvent('plugins_loaded', $this);
+		/* create new instance of KLogger */
+		$this->logger = new \Logger(__DIR__ .'/../../../' .   $relDir, $logLevel, $options);				
 	
-	public function on($eventKey, $data = null)
-	{
-		if ($eventKey == 'plugins_loaded')
-		{
-			$this->logger = new \Phile\Plugin\Sturple\PhileLogger\Logger($this->getPluginPath() .'../../../' . $this->settings['relativePath'],
-																		 $this->settings['logLevel'],
-																		 $this->settings['options']
-																		 );				
-		}
 	}
+	public function getLogger()
+	{
+		return $this->logger;
+	}
+	public function on($eventKey, $data = null)	{}
 }
