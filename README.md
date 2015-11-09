@@ -6,13 +6,13 @@ This logger uses [katzgrau/klogger](https://packagist.org/packages/katzgrau/klog
 ## Installation
 ### Composer
 ```
-php composer.phar require sturple/sturple/phile-logger:*
+php composer.phar require sturple/phileLogger:*
 ```
 
 ### Download
 ```
 * Install [Phile](https://github.com/PhileCMS/Phile)
-* Clone [this](https://github.com/sturple/phileLogger) repo into `plugins/sturple/phileLogger/`
+* Clone this https://github.com/sturple/phileLogger repo into `plugins/sturple/phileLogger/`
 ```
 
 
