@@ -1,8 +1,3 @@
 <?php
 namespace Phile\Plugin\Sturple\PhileLogger;
-use Katzgrau\KLogger;
-
-
-class Logger extends KLogger {
-
-}
+class Logger extends \Katzgrau\KLogger\Logger {}
