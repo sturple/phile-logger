@@ -1,6 +1,6 @@
 <?php
 /**
-* Plugin Class PhileLess
+* Plugin Class PhileLogger
 *
 *
 *	@author Shawn Turple <shawn@turple.ca>
