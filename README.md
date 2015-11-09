@@ -1,6 +1,8 @@
 # Logger For Phile CMS
 
-This logger uses [katzgrau/klogger](https://packagist.org/packages/katzgrau/klogger) for operations which uses [psr/log](https://packagist.org/packages/psr/log).
+This is a simple plugin, which allows logging to be enabled during development and testing of other plugins.
+
+This logger uses [katzgrau/klogger](https://packagist.org/packages/katzgrau/klogger) for operations which has one dependent [psr/log](https://packagist.org/packages/psr/log).
 
 
 ## Installation
