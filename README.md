@@ -6,7 +6,7 @@ This logger uses [katzgrau/klogger](https://packagist.org/packages/katzgrau/klog
 ## Installation
 ### Composer
 ```
-php composer.phar require sturple/phile-logger:*
+php composer.phar require sturple/phile-logger:dev-master
 ```
 
 ### Download
