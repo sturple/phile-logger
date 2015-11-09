@@ -21,22 +21,7 @@ php composer.phar require sturple/phile-logger:dev-master
 ### setup config.php
 
 ``` php
-$config['plugins']['sturple\\phileLogger'] =array(	
-	'active' => false,
-	'relativePath' 		=> 'lib/cache/logs',
-	'logLevel' 			=> '{debug|info|notice|warning|error|critical|alert|emergency}',
-	'options' => array(
-		'extension'      => 'txt',
-		'dateFormat'     => 'Y-m-d G:i:s.u',
-		'filename'       => false,
-		'flushFrequency' => false,
-		'prefix'         => 'log_',
-		'logFormat'      => false,
-		'appendContext'  => true,
-		
-	)
-  
-);
+$config['plugins']['sturple\\phileLogger'] =array('active' => false);
 
 ```
 #### Options
@@ -54,11 +39,23 @@ $config['plugins']['sturple\\phileLogger'] =array(
 
 ### Example to be used in other plugins
 ``` php
-$logger = new Phile\Plugin\Sturple\PhileLogger
-$logger->info('Returned a million search results');
-$logger->error('Oh dear.');
-$logger->debug('Got these users from the Database.', $users);
+$relDir = 'lib/cache/logs';
+$logLevel = '{debug|info|notice|warning|error|critical|alert|emergency}'
+$options = array('extension'      => 'txt',
+		 'dateFormat'     => 'Y-m-d G:i:s.u',
+		 'filename'       => false,
+		 'flushFrequency' => false,
+	 	 'prefix'         => 'log_',
+		 'logFormat'      => false,
+		 'appendContext'  => true);
+		 
 
+
+$logger = (new \Phile\Plugin\Sturple\PhileLogger\Plugin($relDir='lib/cache/logs',
+							$logLevel='debug',
+							$options=array()))->getLogger();
+$logger->info('You can use functions debug, info, notice, warning, error, critical, alert.');
+$logger->warning('You can add arrays',array('phile'=>'CMS'));
 ```
 
 
