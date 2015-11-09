@@ -55,6 +55,10 @@ $config['plugins']['sturple\\phileLogger'] =array(
 ### Example to be used in other plugins
 ``` php
 $logger = new Phile\Plugin\Sturple\PhileLogger
+$logger->info('Returned a million search results');
+$logger->error('Oh dear.');
+$logger->debug('Got these users from the Database.', $users);
+
 ```
 
 
