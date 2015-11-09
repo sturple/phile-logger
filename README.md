@@ -1,4 +1,4 @@
-# Logger For Phie CMS
+# Logger For Phile CMS
 
 This logger uses [katzgrau/klogger](https://packagist.org/packages/katzgrau/klogger) for operations which uses [psr/log](https://packagist.org/packages/psr/log).
 
